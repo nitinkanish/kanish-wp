@@ -16,8 +16,8 @@ get_header();
 			?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<div id="image-navigation" class="d-flex mb-4 justify-content-between">
-						<div><?php previous_image_link( 'large', '<span aria-hidden="true">&larr;</span> ' . esc_html__( 'Previous image', 'kanish' ) ); ?></div>
-						<div><?php next_image_link( 'large', esc_html__( 'Next image', 'kanish' ) . ' <span aria-hidden="true">&rarr;</span>' ); ?></div>
+						<div><?php previous_image_link( 'large', '<span aria-hidden="true">&larr;</span> ' . esc_html__( 'Previous image', 'md-blog' ) ); ?></div>
+						<div><?php next_image_link( 'large', esc_html__( 'Next image', 'md-blog' ) . ' <span aria-hidden="true">&rarr;</span>' ); ?></div>
 					</div><!-- /.d-flex -->
 					<header class="entry-header">
 						<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
@@ -43,18 +43,18 @@ get_header();
 
 							wp_link_pages(
 								array(
-									'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'kanish' ) . '</span>',
+									'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'md-blog' ) . '</span>',
 									'after'       => '</div>',
 									'link_before' => '<span>',
 									'link_after'  => '</span>',
-									'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'kanish' ) . ' </span>%',
+									'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'md-blog' ) . ' </span>%',
 									'separator'   => '<span class="screen-reader-text">, </span>',
 								)
 							);
 						?>
 					</div><!-- /.entry-content -->
 					<footer class="entry-footer">
-						<?php edit_post_link( esc_html__( 'Edit', 'kanish' ), '<span class="edit-link">', '</span>' ); ?>
+						<?php edit_post_link( esc_html__( 'Edit', 'md-blog' ), '<span class="edit-link">', '</span>' ); ?>
 					</footer><!-- /.entry-footer -->
 				</article><!-- /#post-## -->
 
@@ -67,8 +67,8 @@ get_header();
 					// Parent post navigation.
 					the_post_navigation(
 						array(
-							'prev_text'  => esc_html_x( 'Published in %title', 'Parent post link', 'kanish' ),
-							'aria_label' => esc_html__( 'Parent post', 'kanish' ),
+							'prev_text'  => esc_html_x( 'Published in %title', 'Parent post link', 'md-blog' ),
+							'aria_label' => esc_html__( 'Parent post', 'md-blog' ),
 						)
 					);
 

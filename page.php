@@ -18,11 +18,11 @@ the_post();
 
 				wp_link_pages(
 					array(
-						'before' => '<div class="page-links">' . __( 'Pages:', 'kanish' ),
+						'before' => '<div class="page-links">' . __( 'Pages:', 'md-blog' ),
 						'after'  => '</div>',
 					)
 				);
-				edit_post_link( esc_html__( 'Edit', 'kanish' ), '<span class="edit-link">', '</span>' );
+				edit_post_link( esc_html__( 'Edit', 'md-blog' ), '<span class="edit-link">', '</span>' );
 			?>
 		</div><!-- /#post-<?php the_ID(); ?> -->
 		<?php

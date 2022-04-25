@@ -1,9 +1,9 @@
 /*!
-Theme Name: Kanish
+Theme Name: MD Blog
 Theme URI: https://them.es/starter
 Author: Dpro
-Author URI: http://www.debugged-pro.com
-Description: This is the test
+Author URI: https://them.es/starter-bootstrap/
+Description: 
 Version: 3.0.4
 Requires at least: 5.0
 Tested up to: 5.9
@@ -11,7 +11,7 @@ Requires PHP: 7.2
 License: GPL version 2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0
 Tags: custom-background, custom-colors, featured-images, flexible-header, microformats, post-formats, rtl-language-support, theme-options, translation-ready, accessibility-ready
-Text Domain: kanish
+Text Domain: md-blog
 */
 
 /* Don't overwrite this file. Compile "/assets/main.(less|scss)" to "/assets/css/main.css" */
